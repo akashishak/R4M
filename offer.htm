@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+       <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  
+     <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.1.1.min.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.0.1.min.js"></script>
+    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+<!--Offers page-->
+<div data-role="page" id="Offers" data-theme="c">
+
+        <div data-role="header">
+                <a href='#' class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a> <h1>Mobile App</h1><a href="home.htm">Home</a>
+        </div>
+
+       <div data-role="content">
+         <div id="offerlist" >
+        <ul data-role="listview" data-inset="true" >
+            <li><a href="OfferDetails.htm"  data-transition="pop"><img src="images/offer.png" /><h3>Offers 1</h3></a>
+                <span class="ui-li-count">3</span>
+            </li>
+            <li><a href="#Offers"  data-transition="pop"><img src="images/offer.png" /><h3>Offers 2</h3></a></li>
+            <li><a href="#Offers"  data-transition="pop"><img src="images/offer.png" /><h3>Offers 3</h3></a></li>
+        </ul>
+
+         
+         </div>          
+        </div>
+
+        <!--<div data-role="footer">
+                <h4>Copy Rights @ Terrasoft solutions 2012</h4>
+        </div>-->
+</div>
+<!--Offers page-->
+
+<!--Offer Description Page-->
+
+<div data-role="page" id="OfferDetails" data-theme="c">
+
+        <div data-role="header">
+                <a href='#' class='ui-btn-left' data-icon='arrow-l' onclick="history.back(); return false">Back</a> <h1>Offer Details</h1><a href="#mainpage">home</a>
+        </div>
+
+       <div data-role="content">
+         <div id="Div1" >
+        <ul data-role="listview" data-inset="true" >
+            
+        </ul>
+
+         
+         </div>          
+        </div>
+        <!--<div data-role="footer">
+                <h4>Copy Rights @ Terrasoft solutions 2012</h4>
+        </div>-->
+</div>
+<!--Offer Description Page-->
+
+<div data-role="popup" id="popup" data-theme="c" >
+ <div data-role="content">
+ <div id="MyDiv2">
+             
+  </div>
+  </div>
+</div>
+</body>
+</html>
